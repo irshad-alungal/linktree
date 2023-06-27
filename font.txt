@@ -1,0 +1,10 @@
+font-family: 'Aclonica', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Francois One', sans-serif;
+font-family: 'Koulen', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Yeseva One', cursive;
+font-family: 'Zilla Slab', serif;
