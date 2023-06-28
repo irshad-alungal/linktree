@@ -5,21 +5,41 @@
   box-sizing: border-box;
   user-select: none;
 }
-body {
-    margin-bottom: 1000px;
+html {
+  scroll-behavior: smooth;
 }
-
+/* body {
+    margin: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+} */
+/*@media (min-width:1500px) {
+  body {
+    margin-bottom: 1300px;
+  }
+} */
+/*@media (min-width:500px) {
+  body {
+    margin-bottom: 1450px!important;
+  }
+}
+@media (min-width:1100px) {
+  body {
+    margin-bottom: 1500px!important;
+  }
+} */
 video {
     object-fit: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
   }
 .content{
   position: absolute;
-  margin-top: 9%;
+  /* margin-top: 14%; */
   top: 50%;
   left: 50%;
   z-index: 999;
@@ -31,11 +51,46 @@ video {
   box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
   border-radius: 10px;
 }
+/* @media (min-width:350px){
+  .content {
+    margin-top: 0;
+   }
+}
+@media (min-width:487px){
+  .content{
+    margin-top: 4%;
+   }
+}
+@media (min-width:500px){
+  .content {
+    margin-top: 7%;
+   }
+}
+ @media (min-width:540px){
+  .content {
+    margin-top: 15%;
+   }
+}
+@media (min-width:620px){
+   .content {
+    margin-top: 25%;
+    }
+}
+@media (min-width:780px){
+  .content {
+    margin-top: 30%;
+   }
+}
+@media (min-width:880px){
+  .content {
+    margin-top: 38%;
+   }
+} */
 .box {
     align-content: center   !important;
 position: relative;
-width: 150px;
-height: 150px;
+width: 200px;
+height: 200px;
 background: rgba(0,0,0,0.5);
 border-radius: 50%;
 overflow: hidden;
@@ -90,6 +145,7 @@ margin-right: auto;
 .name h1 {
     font-family: 'Ubuntu', sans-serif;
     color: rgb(255, 255, 255);
+    font-size: 45px;
 }
 
 /* social media */
@@ -110,7 +166,7 @@ margin-right: auto;
 	font-family: 'Titillium Web', sans-serif;
 	color: #ffffff;
 	border-radius: 10px;
-	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.8);
 	background: rgb(24, 23, 23) 0.1;
 	margin: 5px;
 	transition: 1s;
@@ -167,12 +223,13 @@ margin-right: auto;
     color: rgb(255, 255, 255);
     letter-spacing: 0.2rem;
     padding-bottom: 20px;
+    font-size: 35px;
 }
 
 /* container */
 .container {
-    width: 80%;
-    border: 2px solid black;
+    width: 90%;
+    border: 4px solid black;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0,0,0,0.4);
@@ -181,23 +238,23 @@ margin-right: auto;
 }
 button {
     position: relative;
-    background: #444;
+    background: #ffffff;
     text-decoration: none;
     border: none;
-    font-size: 1rem;
+    font-size: 30px;
     padding: 0.5rem 1rem;
     transition: 0.2s;
     border-radius: 5px;
     width: 100%;
-    height: 40px;
+    height: 55px;
   }
   button a{
-    color: #e0d7d7;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: none; 
   }
   
   button:hover {
-    letter-spacing: 0.5px;
+    letter-spacing: 4px;
     padding: 0.6rem 1.1rem;
     background: var(--clr);
     color: var(--clr);
@@ -209,7 +266,7 @@ button {
     content: "";
     position: absolute;
     inset: 2px;
-    background: #272822;
+    background: linear-gradient(315deg, #00ccff, #d400d4);
     border-radius: 5px;
   }
   
@@ -231,7 +288,7 @@ button {
     left: 80%;
     top: -2px;
     border: 2px solid var(--clr);
-    background: #272822;
+    background: #282222;
     transition: 0.2s;
   }
   
@@ -288,14 +345,41 @@ button {
     text-align: justify;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 16px;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
 .container {
     margin-bottom: 20px;
 }
-.my-link a{
-  color: rgb(9, 185, 56);
-  text-decoration: none;
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ffffff 0%,
+    #00ef04 29%,
+    #00fffb 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 .image-container {
     display: flex;
@@ -304,8 +388,8 @@ button {
   }
   
 .image-container img {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
 }
 .last{
     align-items: end;
@@ -315,5 +399,5 @@ button {
 .container strong {
     color: #8e8f8b;
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
 }
