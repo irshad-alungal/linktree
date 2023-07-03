@@ -8,10 +8,15 @@
 html {
   scroll-behavior: smooth;
 }
-/* body {
-    padding-bottom: 1320px;
+body {
+    padding-bottom: 0;
     
-} */
+}
+@media (min-width:992px){
+  body {
+       padding-bottom: 1630px;
+   }
+}
 
 video {
     object-fit: cover;
@@ -23,16 +28,22 @@ video {
   }
 .content{
   position: absolute;
-  
+  margin-top: 0%;
   top: 50%;
   left: 50%;
   z-index: 999;
   text-align: center;
+  padding: 20px;
   width: 85%;
   transform: translate(-50%,-50%);
   background: rgba(255,255,255,0.04);
   box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
   border-radius: 25px;
+}
+@media (min-width:992px){
+  .content {
+       margin-top: 25%;
+   }
 }
 
 .box {
