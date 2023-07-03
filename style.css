@@ -8,10 +8,10 @@
 html {
   scroll-behavior: smooth;
 }
-body {
+/* body {
     padding-bottom: 1320px;
     
-}
+} */
 
 video {
     object-fit: cover;
@@ -23,17 +23,16 @@ video {
   }
 .content{
   position: absolute;
-  margin-top: 14.5%;
+  
   top: 50%;
   left: 50%;
   z-index: 999;
   text-align: center;
-  padding: 20px;
   width: 85%;
   transform: translate(-50%,-50%);
   background: rgba(255,255,255,0.04);
   box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .box {
