@@ -17,7 +17,7 @@ body {
 }
 @media (min-width:992px){
   body {
-       padding-bottom: 1630px;
+       padding-bottom: 1030px;
    }
 }
 
@@ -45,7 +45,7 @@ video {
 }
 @media (min-width:992px){
   .content {
-       margin-top: 30%;
+       margin-top: 10%;
    }
 }
 
