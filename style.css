@@ -215,6 +215,7 @@ button {
   button a{
     color: #ffffff;
     text-decoration: none; 
+    font-size: 26px;
   }
   
   button:hover {
@@ -396,6 +397,7 @@ section .hidden {
   letter-spacing: 2px;
   border: 4px solid black;
   border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 section:target .hidden {
@@ -433,7 +435,11 @@ section strong {
   display: table;
   clear: both;
 }
-
+.visit{
+  color: #ffffff;
+  text-decoration: none; 
+  font-size: 18px;
+}
 .glow-on-hover {
   margin-left: 50%;
   margin-right: 50%;
