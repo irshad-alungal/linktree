@@ -503,9 +503,8 @@ section strong {
   100% { background-position: 0 0; }
 }
  .para2{
-  color: red;
+  color: rgb(255, 255, 255);
   padding-bottom: 20px;
   font-size: 18px;
   font-weight: bolder;
-  text-shadow: 0 3px 0 #000000;
  }
