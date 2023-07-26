@@ -12,14 +12,15 @@ html {
   scroll-behavior: smooth;
 }
 body {
-    padding-bottom: 0;
+    padding-bottom:60px;
+    padding-top: 60px;
     
 }
-@media (min-width:992px){
+/* @media (min-width:992px){
   body {
        padding-bottom: 1030px;
    }
-}
+} */
 
 video {
     object-fit: cover;
@@ -29,7 +30,21 @@ video {
     top: 0;
     left: 0;
   }
+
 .content{
+  position: relative;
+  width: 90%;
+  max-width: 770px;
+  background: rgba(255,255,255,0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+  color: #fff;
+  margin: auto auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+
+}
+/* .content{
   position: absolute;
   margin-top: 0%;
   top: 50%;
@@ -42,12 +57,12 @@ video {
   background: rgba(255,255,255,0.04);
   box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
   border-radius: 25px;
-}
-@media (min-width:992px){
+} */
+/* @media (min-width:992px){
   .content {
        margin-top: 15%;
    }
-}
+} */
 
 .box {
     align-content: center   !important;
