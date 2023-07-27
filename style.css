@@ -522,3 +522,7 @@ section strong {
   font-size: 18px;
   font-weight: bolder;
  }
+
+button span {
+  color: #000;
+}
