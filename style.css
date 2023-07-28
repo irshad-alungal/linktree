@@ -526,3 +526,13 @@ section strong {
 button span {
   color: #000;
 }
+
+.skill-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skill-img img{
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
