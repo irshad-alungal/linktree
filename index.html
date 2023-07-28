@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Carter+One&family=Francois+One&family=Koulen&family=PT+Sans&family=Poppins:wght@300&family=Tangerine&family=Ubuntu:wght@700&family=Yeseva+One&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
     <link href="tap logo.png" rel="icon">
     <link href="style.scss" rel="stylesheet/scss" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
     <video src="video.mp4" autoplay loop playsinline muted></video>
@@ -47,18 +48,20 @@
 <!-- tittle -->
         <div class="project">
             <h3>PROJECTS</h3>
-            <p class="para2"><b>NOTE:</b> ✋ Click the heading for more details</p>
+            <!-- <p class="para2"><b>NOTE:</b> ✋ Click the heading for more details</p> -->
         </div>
 
-
         <div class="center">
-            <section id="item9">
-                <form action="#item9">
-                <button style="--clr:#72c8c5" ><span><a href="" target="_blank"><b><span>Machine Test </span>- Matsio Digital</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p>This is a machine test given to me by a company called <a href="https://matsio.com/" target="_blank" class="animate-charcter">Matsio Digital</a> as part of job hiring for front end developer position.  They sent me a <a href="https://www.figma.com/file/EpsQLLkLFHRsWpueLKNwdc/Frontend-Developer-Interview?type=design&node-id=4-43&mode=design&t=D7Bpskv2gThKsXf2-0" target="_blank" class="animate-charcter">Figma UI</a> of a model for it. </p>
+            <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#72c8c5"  class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <span><a><b><span>Machine Test </span>- Matsio Digital</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>This is a machine test given to me by a company called <a href="https://matsio.com/" target="_blank" class="animate-charcter">Matsio Digital</a> as part of job hiring for front end developer position.  They sent me a <a href="https://www.figma.com/file/EpsQLLkLFHRsWpueLKNwdc/Frontend-Developer-Interview?type=design&node-id=4-43&mode=design&t=D7Bpskv2gThKsXf2-0" target="_blank" class="animate-charcter">Figma UI</a> of a model for it. </p>
                     <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -73,18 +76,18 @@
             </div>
                         
         <div class="last"><strong>Published on July 27th, 2023</strong></div>
-                </div>
-            </section>
-        </div>
-
-        <div class="center">
-            <section id="item8">
-                <form action="#item8">
-                <button style="--clr:#201A4D" ><span><a href="" target="_blank"><b>Weather App</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p>API connecting with js using AJAX call (Fetch) method</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#201A4D" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <span><a><b>Weather App</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>API connecting with js using AJAX call (Fetch) method</p>
                     <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -100,19 +103,18 @@
             </div>
                         
         <div class="last"><strong>Published on July 26th, 2023</strong></div>
-                </div>
-            </section>
-        </div>
-
-
-        <div class="center">
-            <section id="item7">
-                <form action="#item7">
-                <button style="--clr:#FF5733" ><span><a href="" target="_blank"><b><span>Machine Test</span> - BrandM</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p>This is a machine test given to me by a company called BrandM as part of job hiring for front end developer position.  They sent me a <a href="http://ghlboy.com" target="_blank" class="animate-charcter">link</a> of a model for it.  They allotted me seven hours. I have a request.  This website is not a fully responsive website.  I could not do it due to time constraints.  Please open this link on laptop.  I know there are many problems with mobile view.  I regret that.  For this website I have used HTML, CSS, Bootstrap and Js.</p>
+    </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#FF5733" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <span><a><b><span>Machine Test</span> - BrandM</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>This is a machine test given to me by a company called BrandM as part of job hiring for front end developer position.  They sent me a <a href="http://ghlboy.com" target="_blank" class="animate-charcter">link</a> of a model for it.  They allotted me seven hours. I have a request.  This website is not a fully responsive website.  I could not do it due to time constraints.  Please open this link on laptop.  I know there are many problems with mobile view.  I regret that.  For this website I have used HTML, CSS, Bootstrap and Js.</p>
             <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -127,18 +129,18 @@
             </div>
                         
         <div class="last"><strong>Published on July 19th, 2023</strong></div>
-                </div>
-            </section>
-        </div>
-        
-        <div class="center">
-            <section id="item1">
-                <form action="#item1">
-                <button style="--clr:#39FF14" ><span><a href="" target="_blank"><b>Kottakkal arya vaidya sala</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p>I built a website under the name of a company called Kottakkal Arya Vaidyasala. I used HTML, CSS and Bootstrap for that  . This company's office website was helpful for me to make this website.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#39FF14" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+        <span><a><b>Kottakkal arya vaidya sala</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>I built a website under the name of a company called Kottakkal Arya Vaidyasala. I used HTML, CSS and Bootstrap for that  . This company's office website was helpful for me to make this website.</p>
             <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -152,19 +154,18 @@
             </div>
                         
         <div class="last"><strong>Published on June 26th, 2023</strong></div>
-                </div>
-            </section>
-        </div>
-
-
-        <div class="center">
-            <section id="item2">
-                <form action="#item2">
-                    <button style="--clr:#0FF0FC"><span><a  target="_blank"><b>Freelance Work</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p class="my-link">I have created a website for friend.  He is a graphics designer.  He gave me the <a href="https://drive.google.com/file/d/1H08LhzCW4uJEX8KTtVg9bpqbWDYKfBAz/view" target="_blank" class="animate-charcter">UI DESIGN</a>. I used HTML and CSS for that</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#0FF0FC" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+        <span><a><b>Freelance Work</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p class="my-link">I have created a website for friend.  He is a graphics designer.  He gave me the <a href="https://drive.google.com/file/d/1H08LhzCW4uJEX8KTtVg9bpqbWDYKfBAz/view" target="_blank" class="animate-charcter">UI DESIGN</a>. I used HTML and CSS for that</p>
                     <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -177,23 +178,18 @@
             </div>
                         
             <div class="last"><strong>Published on December 11th, 2022</strong></div>
-                </div>
-            </section>
-        </div>
-
-
-
-        
-
-        
-        <div class="center">
-            <section id="item3">
-                <form action="#item3">
-                    <button style="--clr:#FF44CC"><span><a href="https://irshad-alungal.github.io/web/" target="_blank"><b>My Portfolio</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p>I built a portfolio website using HTML, CSS and JavaScript. I referred two YouTube videos for that</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#FF44CC" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+        <span><a><b>My Portfolio</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>I built a portfolio website using HTML, CSS and JavaScript. I referred two YouTube videos for that</p>
                     <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -207,18 +203,18 @@
             </div>
                         
             <div class="last"><strong>Published on January 16th, 2022</strong></div>
-                </div>
-            </section>
-        </div>
-
-        <div class="center">
-            <section id="item6">
-                <form action="#item6">
-                    <button style="--clr:#fc0328"><span><a href="" target="_blank"><b>Social Media</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#fc0328" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+        <span><a><b>Social Media</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p></p>
                     <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -231,18 +227,18 @@
             </div>
                         
             <div class="last"><strong></strong></div>
-                </div>
-            </section>
-        </div>
-
-        <div class="center">
-            <section id="item4">
-                <form action="#item4">
-                    <button style="--clr:#096d42"><span><a href="" target="_blank"><b>My Old Portfolio</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#096d42" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+        <span><a href="" target="_blank"><b>My Old Portfolio</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p></p>
                     <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -256,18 +252,18 @@
             </div>
                         
             <div class="last"><strong>Published on March 13th, 2021</strong></div>
-                </div>
-            </section>
-        </div>
-
-        <div class="center">
-            <section id="item5">
-                <form action="#item5">
-                    <button style="--clr:#fbff00"><span><a href="" target="_blank"><b>My first website</b></a></span><i></i></button>
-                </form>
-
-                <div class="hidden">
-                    <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button style="--clr:#fbff00" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <span><a href="" target="_blank"><b>My first website</b></a></span><i></i>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p></p>
                     <div class="row">
                 <div class="column">
                     <div class="image-container">
@@ -281,9 +277,15 @@
             </div>
                         
             <div class="last"><strong>Published on August 19th, 2020</strong></div>
-                </div>
-            </section>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
+
+        
+
+        
         <div>
             <h4 class="animate-charcter">skill known</h4>
             <div class="skill-img">
@@ -303,11 +305,12 @@
         
 
             <div class="note"><p>NB: Tailwind, SASS, Angular and React projects uploading soon.</p></div>
-
-            
+         
     </div>
+    
 </div>
 
 </body>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
