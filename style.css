@@ -222,7 +222,7 @@ button {
     font-size: 30px;
     padding: 0.5rem 1rem;
     transition: 0.2s;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 100%;
     height: 55px;
     cursor: pointer;
@@ -247,12 +247,13 @@ button {
     position: absolute;
     inset: 5px;
     background: linear-gradient(315deg, #00ccff, #d400d4);
-    border-radius: 5px;
+    border-radius: 20px;
   }
   
   button span {
     position: relative;
     z-index: 1;
+    
   }
   button i {
     position: absolute;
@@ -417,7 +418,9 @@ section .hidden {
 
 .accordion-body{
   background-color: rgba(0,0,0,0.8);
-  border: 4px solid rgb(47, 58, 69);
+  border-left: 4px solid rgb(47, 58, 69);
+  border-right: 4px solid rgb(47, 58, 69);
+  border-bottom: 4px solid rgb(47, 58, 69);
   padding: 20px!important;
   color: #fff;
   letter-spacing: 2px;
@@ -561,9 +564,20 @@ button span {
 }
 
 
-
+.accordion {
+  
+}
 .accordion-item {
   margin-bottom: 25px;
+  border-radius: 20px;
+  background-color: #000!important;
+}
+.accordion-body , .accordion-collapse {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.accordion-button {
+  border-radius: 20px!important;
 }
 h2 b {
   color: #ffffff;
